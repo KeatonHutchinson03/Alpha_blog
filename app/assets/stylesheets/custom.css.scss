@@ -28,27 +28,17 @@
   background-size: cover;
 }
 
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
 }
 
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+#sticky-footer {
+  flex-shrink: none;
 }
