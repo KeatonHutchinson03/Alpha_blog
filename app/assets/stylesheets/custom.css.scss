@@ -34,6 +34,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;   /* stack main content + footer vertically */
+  min-height: 100vh;        /* ensure full height even on short pages */
+}
+
 #page-content {
   flex: 1 0 auto;
   background-color: lightgrey;
